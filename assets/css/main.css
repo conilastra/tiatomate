@@ -11,17 +11,20 @@ img {
 body {
   height: 100vh;
   background-color: #FFF;
-}
-
-/* Base Typography*/
-h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 /* Header Layout */
-.header {
+.header__nav {
   padding-top: 2rem;
   padding-left: 2rem;
 }

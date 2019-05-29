@@ -1,8 +1,14 @@
 /* Header Layout */
-.header {
+.header__nav {
     padding-top: 2rem;
     padding-left: 2rem;
 }
 .logo {
   width: 120px;
+}
+
+.header__slogan {
+  padding-top: 200px;
+  padding-left: 200px;
+  text-align: center;
 }
