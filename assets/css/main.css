@@ -30,4 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 120px;
 }
 
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #FFF;
+}
+
 /*# sourceMappingURL=main.css.map */
