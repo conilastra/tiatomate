@@ -24,13 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header Layout */
-.header__nav {
+.header .header__nav {
   padding-top: 2rem;
   padding-left: 2rem;
 }
-
-.logo {
+.header .logo {
   width: 120px;
+}
+.header .header__slogan {
+  padding-top: 200px;
+  padding-left: 200px;
+  text-align: center;
+  background-color: red;
 }
 
 .button {
