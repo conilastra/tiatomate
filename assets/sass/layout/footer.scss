@@ -1,0 +1,12 @@
+.footer {
+    height: 100px;
+    background-color: $granite-gray;
+    margin: 0;
+
+    & img {
+        display:inline-block;
+        vertical-align: middle;
+        height: 35%;
+        padding: 2rem;
+    }
+}

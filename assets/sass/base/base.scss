@@ -3,13 +3,12 @@ body {
     height: 100vh;
     background-color: $white;
     font-family: $Raleway;
-    font-weight: $regular;
-    font-size: $medium;
+    color: $granite-gray;
+    text-align: center;
+    
+    p {
+       font-size: $medium;
+    }
 }
 
-/* Base Typography*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: $Raleway;
-    font-weight: $bold;
-    font-size: $medium;
-}
+

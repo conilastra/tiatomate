@@ -1,6 +1,9 @@
 .button {
-    padding: .7rem 2rem;
+    padding: 0.4rem 3rem;
     border-radius: 50px;
-    font-size: $medium;
-    color: $white;
+    border: $granite-gray 1px solid;
+    background-color: $white;
+    font-size: 75%;
+    font-weight: $bold;
+    color: $granite-gray;
   }

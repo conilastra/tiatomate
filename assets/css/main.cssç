@@ -16,23 +16,24 @@ body {
   text-align: center;
 }
 body p {
-  font-size: 18px;
+  font-size: 80%;
 }
 
-.nav {
-  height: 40px;
+nav {
+  height: 2rem;
 }
-.nav__logo {
-  height: 25px;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-  position: absolute;
-  left: 5px;
+
+.header__logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 60%;
+  padding: 0.5rem;
+  margin: 0 2rem 0 0;
 }
 
 .slogan {
   background-color: #E56353;
-  height: 500px;
+  height: 100vh;
   width: 100vw;
   display: table-cell;
   vertical-align: middle;
@@ -43,7 +44,6 @@ body p {
   text-align: center;
   color: #FFF;
   font-weight: 200;
-  font-size: 50px;
 }
 .slogan__text .slogan__text--highlight {
   font-weight: 700;
@@ -51,11 +51,11 @@ body p {
 
 .about-intro {
   background-color: #A0A0A0;
-  min-height: 50vh;
+  width: 100vw;
   padding: 2em 0;
 }
 .about-intro__img {
-  max-width: 70vw;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -66,63 +66,53 @@ body p {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  padding: 0 10vw;
-  width: 100vw;
 }
 .about-intro__text p {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 65%;
   text-align: left;
-  max-width: 60vw;
-  padding: 0 10vw;
 }
 
 .about-from {
   background-color: #FFF;
-  color: #686963;
-  min-height: 50vh;
+  width: 100vw;
   padding: 2em 0;
 }
 .about-from__img {
-  width: 70vw;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .about-from__text {
-  color: #686963;
+  color: #FFF;
   font-weight: 200;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  padding: 0 10vw;
-  width: 100vw;
 }
 .about-from__text p {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 65%;
   text-align: left;
-  max-width: 60vw;
-  padding: 0 10vw;
 }
 
 .about-us {
   background-color: #FFF;
-  padding: 1em 0;
+  width: 100vw;
+  padding: 2em 0;
   margin: 0;
 }
 .about-us--title {
   background-color: #E56353;
   color: #FFF;
-  display: table-cell;
-  vertical-align: middle;
   text-align: center;
-  height: 100px;
-  width: 100vw;
-}
-.about-us__javiera, .about-us__roberto {
-  background-color: #FFF;
-  padding-bottom: 2rem;
-  width: 100vw;
+  padding: 2em 0;
 }
 .about-us__javiera img, .about-us__roberto img {
-  width: 30vw;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -134,18 +124,20 @@ body p {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  padding: 0 10vw;
-  width: 100vw;
+}
+.about-us__javiera__text h3, .about-us__roberto__text h3 {
+  font-weight: 400;
 }
 .about-us__javiera__text p, .about-us__roberto__text p {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 65%;
   text-align: left;
-  max-width: 80vw;
-  padding: 0 10vw;
 }
 
 .contact {
   background-color: #E56353;
-  height: 200px;
+  height: 40vh;
   width: 100vw;
   display: table-cell;
   vertical-align: middle;
@@ -153,26 +145,12 @@ body p {
   color: #FFF;
 }
 
-.footer {
-  height: 100px;
-  background-color: #686963;
-  margin: 0;
-}
-.footer img {
-  display: inline-block;
-  vertical-align: middle;
-  height: 35%;
-  padding: 2rem;
-}
-
 .button {
-  padding: 0.4rem 3rem;
+  padding: 0.7rem 2rem;
   border-radius: 50px;
-  border: #686963 1px solid;
+  font-size: 18px;
+  border: #686963 1px;
   background-color: #FFF;
-  font-size: 75%;
-  font-weight: 700;
-  color: #686963;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css%C3%A7.map */

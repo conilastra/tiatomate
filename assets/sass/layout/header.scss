@@ -1,17 +1,39 @@
-/* Header Layout */
-.header {
-  .header__nav {
-      padding-top: 2rem;
-      padding-left: 2rem;
-  }
-  .logo {
-    width: 120px;
-  }
+// Navbar 
+.nav {
+    height: 40px;
+    
+    
+    &__logo {
+        height: 25px;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        position: absolute;
+        left: 5px;
+    }
 
-  .header__slogan {
-    padding-top: 200px;
-    padding-left: 200px;
+}
+
+
+//Slogan
+
+.slogan {
+    background-color: $jelly-bean;
+    height: 500px;
+    width: 100vw;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+
+.slogan__text {
     text-align: center;
-    background-color: red;
-  }
+    color: $white;
+    font-weight: $extra-light;
+    font-size: $large;
+    
+
+    .slogan__text--highlight {
+        font-weight: $bold;
+    }
 }
